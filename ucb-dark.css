@@ -4,23 +4,54 @@
  * By SRC Web Team
  */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&display=swap");
+.reveal a {
+  color: #0277BD !important;
+  transition: color 300ms !important; }
+
+.reveal a:hover {
+  color: #B71C1C !important; }
+
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
-.reveal-viewport {
-  background: black;
-  background: linear-gradient(180deg, black 0%, #161616 40%, #424242 100%) !important; }
+#background-image {
+  background-color: #262626;
+  position: absolute;
+  z-index: 1;
+  top: 93%;
+  left: 3%;
+  height: 25px;
+  width: auto;
+  margin: 0px; }
 
 .ucb-header {
   border-bottom: 1px solid #CFB87C; }
+
+.highlight-gold {
+  color: #CFB87C; }
+
+.italics {
+  font-style: italic; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.smaller {
+  font-size: .65em; }
+
+.bold {
+  font-weight: bold; }
 
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #424242;
+  --background-color: #262626;
   --main-font: Roboto, Helvetica, sans-serif;
-  --main-font-size: 100%;
+  --main-font-size: 42px;
   --main-color: #fff;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
@@ -32,34 +63,34 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --heading-text-shadow: none;
   --heading-font-weight: 600;
   --heading1-text-shadow: none;
-  --heading1-size: 3em;
-  --heading2-size: 2em;
+  --heading1-size: 2.5em;
+  --heading2-size: 1.6em;
   --heading3-size: 1.3em;
   --heading4-size: 1em;
   --code-font: monospace;
-  --link-color: #0277BD;
-  --link-color-hover: #0fa4fc;
-  --selection-background-color: #42b7fd;
+  --link-color: #CFB87C;
+  --link-color-hover: #e4d6b4;
+  --selection-background-color: #f1ebd9;
   --selection-color: #fff; }
 
 .reveal-viewport {
-  background: #424242;
-  background-color: #424242; }
+  background: #262626;
+  background-color: #262626; }
 
 .reveal {
   font-family: "Roboto", Helvetica, sans-serif;
-  font-size: 100%;
+  font-size: 42px;
   font-weight: normal;
   color: #fff; }
 
 .reveal ::selection {
   color: #fff;
-  background: #42b7fd;
+  background: #f1ebd9;
   text-shadow: none; }
 
 .reveal ::-moz-selection {
   color: #fff;
-  background: #42b7fd;
+  background: #f1ebd9;
   text-shadow: none; }
 
 .reveal .slides section,
@@ -87,10 +118,10 @@ section.has-light-background, section.has-light-background h1, section.has-light
   word-wrap: break-word; }
 
 .reveal h1 {
-  font-size: 3em; }
+  font-size: 2.5em; }
 
 .reveal h2 {
-  font-size: 2em; }
+  font-size: 1.6em; }
 
 .reveal h3 {
   font-size: 1.3em; }
@@ -244,18 +275,18 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * LINKS
  *********************************************/
 .reveal a {
-  color: #0277BD;
+  color: #CFB87C;
   text-decoration: none;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #0fa4fc;
+  color: #e4d6b4;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
   color: #fff;
-  background: #014771; }
+  background: #ba9a44; }
 
 /*********************************************
  * Frame helper
@@ -268,25 +299,25 @@ section.has-light-background, section.has-light-background h1, section.has-light
   transition: all .15s linear; }
 
 .reveal a:hover .r-frame {
-  border-color: #0277BD;
+  border-color: #CFB87C;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #0277BD; }
+  color: #CFB87C; }
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #0277BD; }
+  color: #CFB87C; }
 
 /*********************************************
  * PRINT BACKGROUND
  *********************************************/
 @media print {
   .backgrounds {
-    background-color: #424242; } }
+    background-color: #262626; } }
