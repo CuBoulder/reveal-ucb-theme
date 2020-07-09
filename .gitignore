@@ -15,3 +15,5 @@ examples/
 css/
 setup.sh
 gulpfile.js
+package.json
+package-lock.json

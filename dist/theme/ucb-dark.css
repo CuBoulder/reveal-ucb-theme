@@ -14,15 +14,15 @@
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
-body.reveal-viewport {
+#background-image {
   background-color: #262626;
-  background-image: url("/images/cu-boulder-logo-text-white.svg");
-  background-size: auto 25px;
-  background-repeat: no-repeat;
-  background-position: 3% 96%; }
-  @media (max-width: 768px) {
-    body.reveal-viewport {
-      background-position-x: 10%; } }
+  position: absolute;
+  z-index: 1;
+  top: 93%;
+  left: 3%;
+  height: 25px;
+  width: auto;
+  margin: 0px; }
 
 .ucb-header {
   border-bottom: 1px solid #CFB87C; }
