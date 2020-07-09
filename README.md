@@ -6,12 +6,12 @@ A CU theme for presentations using Reveal.js
 - Download the ````ucb-dark.css```` file
 - Place this file in the ````dist/theme```` directory
 - In index.html, change the the stylesheet with the ````id="theme"```` to have an href value of ````dist/theme/ucb-dark.css````
-- Also add this markup to index.html directly under the <div class="slides"> tag to give the slides a nice header.
-````    		
-<div class="ucb-header"> 
-  <img src="https://cuboulder.github.io/brand-assets/images/cu-boulder-logo-text-white.svg" alt="cu header" height="25px" width="auto" />
-</div>
+- Also add this markup to index.html directly under the <body> tag to give the slides a nice footer.
 ````
+  <img src="/images/cu-boulder-logo-text-white.svg" alt="cu footer logo" />
+````
+- Add the ````favicon.ico```` to the project root
+- Add the ````/images```` directory with the .svg inside to the root as well. 
 
 ### Editing the Theme
 The official documentation for editing a Reveal theme can be [found here](https://github.com/hakimel/reveal.js/blob/master/css/theme/README.md). The steps below summarize how to edit this theme using those steps.
