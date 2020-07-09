@@ -1,5 +1,7 @@
 # reveal-ucb-theme
-A CU theme for presentations using Reveal.js 
+## [View a Demo of this theme!](https://cuboulder.github.io/reveal-ucb-theme/#/)
+A CU theme for presentations using Reveal.js
+
 
 ### Setup
 - [Install Reveal.js](https://revealjs.com/installation/#full-setup) using the recommened install
