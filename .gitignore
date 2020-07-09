@@ -14,3 +14,4 @@ test/
 examples/
 css/
 setup.sh
+gulpfile.js
