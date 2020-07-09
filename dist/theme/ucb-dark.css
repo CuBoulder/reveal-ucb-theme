@@ -11,6 +11,9 @@
 .reveal a:hover {
   color: #B71C1C !important; }
 
+.reveal h1, h2, h3, h4, h5, h6 {
+  color: #CFB87C !important; }
+
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
