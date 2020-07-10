@@ -10,7 +10,7 @@ A CU theme for presentations using Reveal.js
 - In index.html, change the the stylesheet with the ````id="theme"```` to have an href value of ````dist/theme/ucb-dark.css````
 - Also add this markup to index.html directly under the opening ````<body>```` tag to give the slides a nice footer.
 ````
-  <img id="background-image" src="/images/cu-boulder-logo-text-white.svg" alt="cu footer logo" />
+  <img id="background-image" src="images/cu-boulder-logo-text-white.svg" alt="cu footer logo" />
 ````
 - Add the ````favicon.ico```` to the project root
 - Add the ````/images```` directory with the .svg inside to the root as well. 
